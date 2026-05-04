@@ -1,4 +1,4 @@
-# ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ — Namma Platform
+# ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ : Namma Platform
 
 A simple Android app that helps Karnataka railway passengers find their train, platform, and coach — in Kannada and English.
 
