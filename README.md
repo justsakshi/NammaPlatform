@@ -25,7 +25,7 @@ Kotlin, XML, Android TTS API, local JSON data
 ## Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/namma-platform.git
+git clone https://github.com/justsakshi/NammaPlatform.git
 ```
 
 Open in Android Studio and run on any device or emulator (API 21+).
