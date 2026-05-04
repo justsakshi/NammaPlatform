@@ -1,0 +1,438 @@
+{
+  "stations": [
+    {
+      "key": "mysuru",
+      "displayNames": ["Mysuru", "Mysore", "ಮೈಸೂರು"],
+      "trains": [
+        { "nameKn": "ಮೈಸೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Mysuru Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","S11","S12","B1","B2","A1","SLR"] },
+        { "nameKn": "ಚಾಮುಂಡಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Chamundi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","B1","B2","SLR"] },
+        { "nameKn": "ತಿಪಟೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Tiptur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","S1","S2","S3","S4","SLR"] }
+      ],
+      "ttsKn": "ಮೈಸೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ. ಜನರಲ್ ಕೋಚ್ ಎಂಜಿನ್ ಹತ್ತಿರ ಇರುತ್ತದೆ.",
+      "ttsEn": "At Mysuru, next train on platform 1. General coach is near the engine."
+    },
+    {
+      "key": "hubballi",
+      "displayNames": ["Hubballi", "Hubli", "ಹುಬ್ಬಳ್ಳಿ"],
+      "trains": [
+        { "nameKn": "ಹುಬ್ಬಳ್ಳಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Hubballi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 3", "platformEn": "Platform: 3",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","B1","B2","A1","SLR"] },
+        { "nameKn": "ಧಾರವಾಡ ಫಾಸ್ಟ್", "nameEn": "Dharwad Fast", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಉತ್ತರ ಕರ್ನಾಟಕ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Uttara Karnataka Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] }
+      ],
+      "ttsKn": "ಹುಬ್ಬಳ್ಳಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 3 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Hubballi, next train on platform 3."
+    },
+    {
+      "key": "belagavi",
+      "displayNames": ["Belagavi", "Belgaum", "ಬೆಳಗಾವಿ"],
+      "trains": [
+        { "nameKn": "ಬೆಳಗಾವಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Belagavi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","B1","B2","A1","SLR"] },
+        { "nameKn": "ಗೋವಾ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Goa Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಕಿತ್ತೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Kittur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","S1","S2","S3","S4","SLR"] }
+      ],
+      "ttsKn": "ಬೆಳಗಾವಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Belagavi, next train on platform 2."
+    },
+    {
+      "key": "bengaluru",
+      "displayNames": ["Bengaluru", "Bangalore", "ಬೆಂಗಳೂರು", "KSR Bengaluru"],
+      "trains": [
+        { "nameKn": "ರಾಜಧಾನಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Rajdhani Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 5", "platformEn": "Platform: 5",
+          "coaches": ["ENGINE","EOG","1A","2A","2A","2A","3A","3A","3A","3A","3A","3A","PC","EOG"] },
+        { "nameKn": "ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Shatabdi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 4", "platformEn": "Platform: 4",
+          "coaches": ["ENGINE","EOG","EC","EC","CC","CC","CC","CC","CC","CC","CC","CC","EOG"] },
+        { "nameKn": "ಬೆಂಗಳೂರು ಮೇಲ್", "nameEn": "Bengaluru Mail", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 6", "platformEn": "Platform: 6",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","S11","S12","B1","B2","B3","A1","A2","SLR"] }
+      ],
+      "ttsKn": "ಬೆಂಗಳೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 5 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Bengaluru, next train on platform 5."
+    },
+    {
+      "key": "mangaluru",
+      "displayNames": ["Mangaluru", "Mangalore", "ಮಂಗಳೂರು"],
+      "trains": [
+        { "nameKn": "ಮಂಗಳೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Mangaluru Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","B1","B2","A1","SLR"] },
+        { "nameKn": "ಕೊಂಕಣ ರೈಲ್ವೆ", "nameEn": "Konkan Railway", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","A1","SLR"] },
+        { "nameKn": "ಮಾತೃಭೂಮಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Matrubhumi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","SLR"] }
+      ],
+      "ttsKn": "ಮಂಗಳೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Mangaluru, next train on platform 1."
+    },
+    {
+      "key": "tumakuru",
+      "displayNames": ["Tumakuru", "Tumkur", "ತುಮಕೂರು"],
+      "trains": [
+        { "nameKn": "ತುಮಕೂರು ಫಾಸ್ಟ್", "nameEn": "Tumakuru Fast", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಬೆಂಗಳೂರು-ತುಮಕೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Bengaluru-Tumakuru Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","S1","S2","S3","S4","S5","S6","SLR"] },
+        { "nameKn": "ಶಿರಾ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Shira Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] }
+      ],
+      "ttsKn": "ತುಮಕೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Tumakuru, next train on platform 1."
+    },
+    {
+      "key": "davangere",
+      "displayNames": ["Davangere", "Davanagere", "ದಾವಣಗೆರೆ"],
+      "trains": [
+        { "nameKn": "ದಾವಣಗೆರೆ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Davangere Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಚಿತ್ರದುರ್ಗ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Chitradurga Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಹರಿಹರ ಲೋಕಲ್", "nameEn": "Harihar Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ದಾವಣಗೆರೆ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Davangere, next train on platform 2."
+    },
+    {
+      "key": "shivamogga",
+      "displayNames": ["Shivamogga", "Shimoga", "ಶಿವಮೊಗ್ಗ"],
+      "trains": [
+        { "nameKn": "ಶಿವಮೊಗ್ಗ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Shivamogga Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಸಾಗರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Sagar Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಬದ್ರಾ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Bhadra Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","SLR"] }
+      ],
+      "ttsKn": "ಶಿವಮೊಗ್ಗ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Shivamogga, next train on platform 1."
+    },
+    {
+      "key": "ballari",
+      "displayNames": ["Ballari", "Bellary", "ಬಳ್ಳಾರಿ"],
+      "trains": [
+        { "nameKn": "ಹಂಪಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Hampi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","B1","B2","A1","SLR"] },
+        { "nameKn": "ಬಳ್ಳಾರಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Ballari Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ತೊರಣಗಲ್ಲು ಲೋಕಲ್", "nameEn": "Toranagallu Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಬಳ್ಳಾರಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Ballari, next train on platform 2."
+    },
+    {
+      "key": "vijayapura",
+      "displayNames": ["Vijayapura", "Bijapur", "ವಿಜಯಪುರ"],
+      "trains": [
+        { "nameKn": "ವಿಜಯಪುರ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Vijayapura Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಸೋಲಾಪುರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Solapur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಬಾಗಲಕೋಟೆ ಲೋಕಲ್", "nameEn": "Bagalkote Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] }
+      ],
+      "ttsKn": "ವಿಜಯಪುರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Vijayapura, next train on platform 1."
+    },
+    {
+      "key": "kalaburagi",
+      "displayNames": ["Kalaburagi", "Gulbarga", "ಕಲಬುರಗಿ"],
+      "trains": [
+        { "nameKn": "ಕಲಬುರಗಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Kalaburagi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","B1","B2","A1","SLR"] },
+        { "nameKn": "ಹೈದರಾಬಾದ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Hyderabad Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ರಾಯಚೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Raichur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] }
+      ],
+      "ttsKn": "ಕಲಬುರಗಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Kalaburagi, next train on platform 2."
+    },
+    {
+      "key": "raichur",
+      "displayNames": ["Raichur", "ರಾಯಚೂರು"],
+      "trains": [
+        { "nameKn": "ರಾಯಚೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Raichur Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಮಂತ್ರಾಲಯ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Mantralaya Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಆದೋನಿ ಲೋಕಲ್", "nameEn": "Adoni Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ರಾಯಚೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Raichur, next train on platform 1."
+    },
+    {
+      "key": "bidar",
+      "displayNames": ["Bidar", "ಬೀದರ್"],
+      "trains": [
+        { "nameKn": "ಬೀದರ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Bidar Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಹೈದರಾಬಾದ್ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Hyderabad Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","SLR","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಉದಗೀರ್ ಲೋಕಲ್", "nameEn": "Udgir Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಬೀದರ್ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Bidar, next train on platform 1."
+    },
+    {
+      "key": "koppal",
+      "displayNames": ["Koppal", "ಕೊಪ್ಪಳ"],
+      "trains": [
+        { "nameKn": "ಕೊಪ್ಪಳ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Koppal Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಗದಗ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Gadag Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","SLR"] },
+        { "nameKn": "ಹೊಸಪೇಟೆ ಲೋಕಲ್", "nameEn": "Hosapete Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಕೊಪ್ಪಳ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Koppal, next train on platform 1."
+    },
+    {
+      "key": "gadag",
+      "displayNames": ["Gadag", "ಗದಗ"],
+      "trains": [
+        { "nameKn": "ಗದಗ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Gadag Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","SLR"] },
+        { "nameKn": "ಬಾದಾಮಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Badami Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ರೋಣ ಲೋಕಲ್", "nameEn": "Ron Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಗದಗ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Gadag, next train on platform 2."
+    },
+    {
+      "key": "dharwad",
+      "displayNames": ["Dharwad", "Dharwad", "ಧಾರವಾಡ"],
+      "trains": [
+        { "nameKn": "ಧಾರವಾಡ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Dharwad Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಅಮ್ಮಿನಭಾವಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Amminabhavi Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಉಣಕಲ್ ಲೋಕಲ್", "nameEn": "Unkal Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಧಾರವಾಡ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Dharwad, next train on platform 1."
+    },
+    {
+      "key": "haveri",
+      "displayNames": ["Haveri", "ಹಾವೇರಿ"],
+      "trains": [
+        { "nameKn": "ಹಾವೇರಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Haveri Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ರಾಣೇಬೆನ್ನೂರು ಲೋಕಲ್", "nameEn": "Ranebennur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] },
+        { "nameKn": "ಬ್ಯಾಡಗಿ ಲೋಕಲ್", "nameEn": "Byadagi Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","SLR"] }
+      ],
+      "ttsKn": "ಹಾವೇರಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Haveri, next train on platform 1."
+    },
+    {
+      "key": "chitradurga",
+      "displayNames": ["Chitradurga", "ಚಿತ್ರದುರ್ಗ"],
+      "trains": [
+        { "nameKn": "ಚಿತ್ರದುರ್ಗ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Chitradurga Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಹಿರಿಯೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Hiriyur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಚಳ್ಳಕೆರೆ ಲೋಕಲ್", "nameEn": "Challakere Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಚಿತ್ರದುರ್ಗ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Chitradurga, next train on platform 1."
+    },
+    {
+      "key": "hosapete",
+      "displayNames": ["Hosapete", "Hospet", "ಹೊಸಪೇಟೆ"],
+      "trains": [
+        { "nameKn": "ಹಂಪಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Hampi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","B1","B2","A1","SLR"] },
+        { "nameKn": "ಹೊಸಪೇಟೆ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Hosapete Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ತೊರಣಗಲ್ಲು ಲೋಕಲ್", "nameEn": "Toranagallu Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಹೊಸಪೇಟೆ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Hosapete, next train on platform 1."
+    },
+    {
+      "key": "bagalkote",
+      "displayNames": ["Bagalkote", "Bagalkot", "ಬಾಗಲಕೋಟೆ"],
+      "trains": [
+        { "nameKn": "ಬಾಗಲಕೋಟೆ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Bagalkote Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಆಲಮಟ್ಟಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Almatti Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಜಮಖಂಡಿ ಲೋಕಲ್", "nameEn": "Jamkhandi Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಬಾಗಲಕೋಟೆ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Bagalkote, next train on platform 1."
+    },
+    {
+      "key": "yadgir",
+      "displayNames": ["Yadgir", "Yadgiri", "ಯಾದಗಿರಿ"],
+      "trains": [
+        { "nameKn": "ಯಾದಗಿರಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Yadgir Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಶಹಾಬಾದ್ ಲೋಕಲ್", "nameEn": "Shahabad Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] },
+        { "nameKn": "ವಾಡಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Wadi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] }
+      ],
+      "ttsKn": "ಯಾದಗಿರಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Yadgir, next train on platform 1."
+    },
+    {
+      "key": "chikkamagaluru",
+      "displayNames": ["Chikkamagaluru", "Chikmagalur", "ಚಿಕ್ಕಮಗಳೂರು"],
+      "trains": [
+        { "nameKn": "ಚಿಕ್ಕಮಗಳೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Chikkamagaluru Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","SLR"] },
+        { "nameKn": "ಕಡೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Kadur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಬಿರೂರು ಲೋಕಲ್", "nameEn": "Birur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಚಿಕ್ಕಮಗಳೂರು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Chikkamagaluru, next train on platform 1."
+    },
+    {
+      "key": "hassan",
+      "displayNames": ["Hassan", "ಹಾಸನ"],
+      "trains": [
+        { "nameKn": "ಹಾಸನ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Hassan Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಸಕಲೇಶಪುರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Sakleshpur Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಅರಸೀಕೆರೆ ಲೋಕಲ್", "nameEn": "Arsikere Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಹಾಸನ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 2 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Hassan, next train on platform 2."
+    },
+    {
+      "key": "mandya",
+      "displayNames": ["Mandya", "ಮಂಡ್ಯ"],
+      "trains": [
+        { "nameKn": "ಮಂಡ್ಯ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Mandya Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಶ್ರೀರಂಗಪಟ್ಟಣ ಲೋಕಲ್", "nameEn": "Srirangapatna Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಮದ್ದೂರು ಲೋಕಲ್", "nameEn": "Maddur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಮಂಡ್ಯ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Mandya, next train on platform 1."
+    },
+    {
+      "key": "chamarajanagara",
+      "displayNames": ["Chamarajanagara", "Chamrajnagar", "ಚಾಮರಾಜನಗರ"],
+      "trains": [
+        { "nameKn": "ಚಾಮರಾಜನಗರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Chamarajanagara Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಯಳಂದೂರು ಲೋಕಲ್", "nameEn": "Yelandur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] },
+        { "nameKn": "ಕೊಳ್ಳೇಗಾಲ ಲೋಕಲ್", "nameEn": "Kollegal Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","SLR"] }
+      ],
+      "ttsKn": "ಚಾಮರಾಜನಗರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Chamarajanagara, next train on platform 1."
+    },
+    {
+      "key": "kodagu",
+      "displayNames": ["Kodagu", "Coorg", "ಕೊಡಗು", "Madikeri"],
+      "trains": [
+        { "nameKn": "ಕೊಡಗು ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Kodagu Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","B1","SLR"] },
+        { "nameKn": "ಮಡಿಕೇರಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Madikeri Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ವಿರಾಜಪೇಟೆ ಲೋಕಲ್", "nameEn": "Virajpet Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಕೊಡಗು ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Kodagu, next train on platform 1."
+    },
+    {
+      "key": "udupi",
+      "displayNames": ["Udupi", "ಉಡುಪಿ"],
+      "trains": [
+        { "nameKn": "ಮತ್ಸ್ಯಗಂಧ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Matsyagandha Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","B1","B2","A1","SLR"] },
+        { "nameKn": "ನೇತ್ರಾವತಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Netravati Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","S8","S9","B1","B2","B3","A1","SLR"] },
+        { "nameKn": "ಉಡುಪಿ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Udupi Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] }
+      ],
+      "ttsKn": "ಉಡುಪಿ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Udupi, next train on platform 1."
+    },
+    {
+      "key": "uttara_kannada",
+      "displayNames": ["Karwar", "Uttara Kannada", "ಕಾರವಾರ", "ಉತ್ತರ ಕನ್ನಡ"],
+      "trains": [
+        { "nameKn": "ಕಾರವಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Karwar Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","S7","B1","B2","SLR"] },
+        { "nameKn": "ಅಂಕೋಲಾ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Ankola Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಮಡಗಾಂವ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Madgaon Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","A1","SLR"] }
+      ],
+      "ttsKn": "ಕಾರವಾರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Karwar, next train on platform 1."
+    },
+    {
+      "key": "chikkaballapura",
+      "displayNames": ["Chikkaballapura", "Chikballapur", "ಚಿಕ್ಕಬಳ್ಳಾಪುರ"],
+      "trains": [
+        { "nameKn": "ನಂದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Nandi Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Chikkaballapura Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಗೌರಿಬಿದನೂರು ಲೋಕಲ್", "nameEn": "Gauribidanur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Chikkaballapura, next train on platform 1."
+    },
+    {
+      "key": "kolar",
+      "displayNames": ["Kolar", "ಕೋಲಾರ"],
+      "trains": [
+        { "nameKn": "ಕೋಲಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್", "nameEn": "Kolar Express", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","SLR","S1","S2","S3","S4","S5","S6","B1","B2","SLR"] },
+        { "nameKn": "ಬಂಗಾರಪೇಟೆ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Bangarapet Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","S4","SLR"] },
+        { "nameKn": "ಮಾಲೂರು ಲೋಕಲ್", "nameEn": "Malur Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ಕೋಲಾರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Kolar, next train on platform 1."
+    },
+    {
+      "key": "ramanagara",
+      "displayNames": ["Ramanagara", "Ramanagar", "ರಾಮನಗರ"],
+      "trains": [
+        { "nameKn": "ರಾಮನಗರ ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Ramanagara Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","GEN","LADIES","S1","S2","S3","S4","S5","SLR"] },
+        { "nameKn": "ಚನ್ನಪಟ್ಟಣ ಲೋಕಲ್", "nameEn": "Channapatna Local", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 2", "platformEn": "Platform: 2",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","S3","SLR"] },
+        { "nameKn": "ಮೈಸೂರು ಪ್ಯಾಸೆಂಜರ್", "nameEn": "Mysuru Passenger", "platformKn": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: 1", "platformEn": "Platform: 1",
+          "coaches": ["ENGINE","GEN","LADIES","S1","S2","SLR"] }
+      ],
+      "ttsKn": "ರಾಮನಗರ ಸ್ಟೇಶನ್‌ನಲ್ಲಿ ಮುಂದಿನ ರೈಲು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ 1 ರಲ್ಲಿ ಬರುತ್ತದೆ.",
+      "ttsEn": "At Ramanagara, next train on platform 1."
+    }
+  ]
+}

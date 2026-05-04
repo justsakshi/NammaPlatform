@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#0D47A1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="36dp">
+
+        <!-- Top Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFD600"/>
+
+            <Button
+                android:id="@+id/langToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EN"
+                android:backgroundTint="#FFD600"
+                android:textColor="#0D47A1"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Station Search -->
+        <TextView
+            android:id="@+id/stationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ನಿಮ್ಮ ಸ್ಟೇಶನ್ ಹೆಸರು ಟೈಪ್ ಮಾಡಿ"
+            android:textColor="#FFD600"
+            android:textSize="13sp"
+            android:layout_marginBottom="6dp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/stationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. Mysuru, Hubli..."
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:completionThreshold="1"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Next Trains Label -->
+        <TextView
+            android:id="@+id/nextTrainsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ಮುಂದಿನ 3 ರೈಲುಗಳು"
+            android:textColor="#FFD600"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Train Card 1 -->
+        <LinearLayout
+            android:id="@+id/train1Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/train1Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#0D47A1"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/train1Platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#212121"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:id="@+id/coachStrip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <!-- Train Card 2 -->
+        <LinearLayout
+            android:id="@+id/train2Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/train2Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#0D47A1"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/train2Platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#212121"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:id="@+id/coachStrip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <!-- Train Card 3 -->
+        <LinearLayout
+            android:id="@+id/train3Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/train3Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#0D47A1"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/train3Platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="#212121"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:id="@+id/coachStrip3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <!-- Help Button -->
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ಸಹಾಯ ಮಾಡಿ"
+            android:backgroundTint="#FFD600"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"/>
+
+    </LinearLayout>
+</ScrollView>
